@@ -82,7 +82,7 @@ nav-item::after{
 }
 
 .Cname{
-  position: relative;
+
   font-size: 60px;
   font-weight: 900;
   letter-spacing: 8px;
@@ -93,7 +93,7 @@ nav-item::after{
   -webkit-background-clip:text;
 }
 p{
-  position: relative;
+
   font-size: 20px;
   font-weight: 1000;
   letter-spacing: 5px;

@@ -1,3 +1,6 @@
+body{
+	margin-top:0;
+}
 .rights{
   text-align: center;
   height: 20px;
@@ -22,7 +25,7 @@ h1{
 }
 nav-item::before,
 nav-item::after{
-	position: absolute;
+	position: relative;
 	content: "";
 	z-index: -1;
 }
@@ -32,6 +35,7 @@ nav-item::after{
     #80ff00, 0 0 10px #ccffb3,0 0 20px #00ffbf;	
 }
 .navbar{
+
   background-color: green !important;
   background-image: linear-gradient(to right, #66FF99, yellow);
 }
@@ -82,7 +86,7 @@ nav-item::after{
 }
 
 .Cname{
-
+  flex: 1;
   font-size: 60px;
   font-weight: 900;
   letter-spacing: 8px;
@@ -92,33 +96,67 @@ nav-item::after{
   -webkit-text-fill-color: transparent;
   -webkit-background-clip:text;
 }
-p{
-
+.tagline{
+  flex: 1;
+  position: relative;
   font-size: 20px;
+  padding-left:80px;
+  padding-right:40px;
   font-weight: 1000;
   letter-spacing: 5px;
-  word-spacing:10px
+  word-spacing:10px;
   margin:0;
-  background: url(grass.gif) 50% 50% ;
+  background: url(grass2.gif) 50% 50% ;
   background-size: cover;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip:text;
 }
+.menu{
+	position: relative;
+
+	  
+}
+.a1{
+
+	position: relative;
+  font-size: 20px;
+  
+}
+
+
+
+    .image-container img {
+      width: 110%; /* Ensure images fill their container */
+      height: 80%; /* Maintain aspect ratio */
+	padding-left:80px;
+
+
+    }
+
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 .Jumbotron {
   position: relative;
-  height: 160px;
+  height: auto;
+  width:300px;
   background: url(soil3.jpg);
 
 }
 
 .Jumbotron-img {
   position: relative;
-  padding-top: 18px; /* Adjust as needed */
-  padding-right: 18px; /* Adjust as needed */
   height: 100px;
-  width: 100px;
+  width: auto;
 }
+
+
+
 
 .nav nav-tabs{
   position: relative;
@@ -132,3 +170,7 @@ p{
 .phone{
 	padding-left:40px;
 }
+
+
+
+

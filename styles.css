@@ -126,9 +126,9 @@ nav-item::after{
 
 
     .image-container img {
-      width: 110%; /* Ensure images fill their container */
+      width: 100%; /* Ensure images fill their container */
       height: 80%; /* Maintain aspect ratio */
-	padding-left:80px;
+	padding-left:40px;
 
 
     }
